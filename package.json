@@ -1,11 +1,11 @@
 {
-  "name": "dev-dynasty",
+  "name": "DevDnasty",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/dev-dynasty/",
+    "build": "vite build --base=/DevDnasty/",
     "preview": "vite preview"
   },
   "devDependencies": {
