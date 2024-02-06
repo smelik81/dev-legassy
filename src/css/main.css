@@ -16,13 +16,19 @@ section {
 h1 {
   font-weight: 500;
   font-size: 70px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
 }
 h2 {
   font-weight: 500;
   font-size: 48px;
-  line-height: 100%;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: -0.02em;
 }
