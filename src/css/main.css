@@ -32,3 +32,8 @@ p {
   line-height: 1.17;
   letter-spacing: -0.02em;
 }
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
