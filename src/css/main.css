@@ -43,6 +43,8 @@ p {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transform: translateX(0%);
+  z-index: 1;
 }
 .visually-hidden {
   position: absolute;
