@@ -1,0 +1,50 @@
+.about-us {
+  border-radius: 24px;
+  background: rgb(251, 251, 251);
+  width: 335px;
+  height: 675px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 317px;
+}
+.container-about {
+}
+.container {
+}
+.about {
+  padding-bottom: 40px;
+}
+.about-title {
+  color: rgb(27, 65, 75);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+.about-descr {
+}
+.description {
+  color: rgb(27, 65, 75);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.about-text {
+  color: rgb(4, 3, 6);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -2%;
+  text-align: left;
+  padding-bottom: 22px;
+}
+.about-img {
+  position: relative;
+  border-radius: 24px;
+}
+.about-font {
+}
