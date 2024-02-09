@@ -1,6 +1,4 @@
 /* !REWIEWS */
-.rewiews-section {
-}
 
 .rewiews-titel-container {
   width: 100%;
@@ -29,33 +27,28 @@
   opacity: 0.4;
 }
 
-.rewie-conteiner {
-}
-
 .rewiews-list {
-    display: flex;
-flex-wrap: wrap;
-justify-content: center;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .rewiews-list-type {
-width: 100%;
-    max-width: 335px;
-    padding: 32px 8px 32px 8px;
-    border-radius: 24px;
-    background: rgb(251, 251, 251);
-display: none;
-flex-direction: column;
+  width: 100%;
+  max-width: 335px;
+  padding: 32px 16px 32px 16px;
+  border-radius: 24px;
+  background: rgb(251, 251, 251);
+  display: none;
+  flex-direction: column;
 }
 
 @media (max-width: 767px) {
-    .rewiews-list-type:nth-child(1) {
-        display: flex;
-    }}
+  .rewiews-list-type:nth-child(1) {
+    display: flex;
+  }
+}
 
-
-   
 .rewiews-titel-list {
   font-weight: 500;
   font-size: 18px;
@@ -76,20 +69,14 @@ flex-direction: column;
   margin-top: 8px;
 }
 
-.reviews-container {
-
-}
-
 .rewiews-img {
   position: relative;
   left: 50%;
   transform: translate(-50%);
 }
 
-
-
 @media screen and (min-width: 768px) {
-  .container {
+  .rewie-conteiner-one {
     width: 100%;
     max-width: 768px;
     padding: 0 32px;
@@ -103,44 +90,54 @@ flex-direction: column;
     padding-bottom: 25px;
   }
 
+  .rewiews-list-type {
+    padding: 32px 20px 32px 20px;
+  }
   .rewiews-titel-container {
     max-width: 704px;
     margin-bottom: 75px;
   }
   .rewiews-text {
     max-width: 571px;
+    margin: 0 auto;
   }
 
-   .rewiews-list{
+  .rewiews-list {
     display: flex;
     flex-wrap: wrap;
-   gap: 32px;
-   }
-
- 
+    gap: 32px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1279px) {
-.rewiews-list-type:nth-child(-n+2) {
-        display: flex;
-    }
+  .rewiews-list-type:nth-child(-n + 2) {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        width: 100%;
-            padding: 0 50px;
-            margin: 0 auto;
-    }
-        .rewiews-list-type {
-            display: flex;
-        }
-        .rewiews-titel-container {
-            max-width: 854px;
-           display: flex;
-           flex-wrap: wrap;
-           justify-content: center;
-        }
+  .rewie-conteiner-one {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+  .rewiews-list-type {
+    display: flex;
+  }
+
+  .rewiews-list-type {
+    padding: 32px 28px 32px 28px;
+  }
+
+  .rewiews-titel-container {
+    max-width: 854px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .rewiews-text {
+    padding-bottom: 75px;
+  }
 }
-
-
