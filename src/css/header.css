@@ -1,6 +1,49 @@
-.header {
+/*.header {
     position: relative;
+}*/
+.container.header-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
+.mobile-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #fbfbfb;
+    padding: 0 20px;
+    border: 1px solid #fbfbfb;
+    border-radius: 8px;
+    /*justify-content: space-between;*/
+}
+.mobile-logo,
+.modale-logo {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    color: #1b414b;
+}
+.mobile-logo a[data-wow-duration] {
+        transition: 3s;
+    }
+.mobile-btn-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0;
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+.mobile-menu-svg {
+    stroke-width: 2.5px;
+    stroke: #1b414b;
+}
+
 .modale-window {
     position: fixed;
     top: 0;
@@ -83,39 +126,6 @@
 .modale-svg {
     fill: #fbfbfb;;
 }
-
-.mobile-nav {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    background: #fbfbfb;
-    padding: 0 20px;
-    border: 1px solid #fbfbfb;
-    border-radius: 8px;
-    /*justify-content: space-between;*/
-}
-.mobile-logo,
-.modale-logo {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: -0.03em;
-    color: #1b414b;
-}
-.mobile-btn-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 7px 0;
-    width: 28px;
-    height: 28px;
-    background-color: transparent;
-    border: none;
-    margin-left: auto;
-}
-.mobiie-menu-svg {
-    stroke-width: 2.5px;
-    stroke: #1b414b;
-}
 .modale-close-btn {
     display: flex;
     align-items: center;
@@ -138,12 +148,18 @@
         max-width: 768px;
         padding: 0 32px;
     }
+    .container.header-container {
+        top: 32px;
+    }
     .mobile-nav {
         justify-content: space-between;
         padding: 0 28px;
     }
     .mobile-logo {
         font-size: 20px;
+    }
+    .mobile-logo a[data-wow-duration] {
+        transition: 2.5s;
     }
     .header-menu {
         display: flex;
@@ -202,5 +218,8 @@
     .container {
         max-width: 1280px;
         padding: 0 100px;
+    }
+    .mobile-logo a[data-wow-duration] {
+        transition: 2s;
     }
 }
