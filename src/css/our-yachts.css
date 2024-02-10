@@ -204,8 +204,33 @@
         font-size: 13px;
         line-height: 1.18;
     }
+
+    .our-yachts-btn {
+        min-width: 179px;
+        padding: 16px 40px;
+        font-size: 18px;
+        line-height: 1.1;
+    }
 }
 
 @media screen and (min-width:1280px) {
-    
+    .our-yachts-container {
+        max-width: 1210px;
+    }
+
+    .our-yachts-title {
+        max-width: 714px;
+    }
+
+    .our-yachts-list {
+        gap: 25px;
+    }
+
+    .our-yachts-item {
+        max-width: 377px;
+    }
+
+    .our-yachts-item:nth-child(3) {
+        display: block;
+    }
 }
