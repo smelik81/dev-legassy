@@ -1,38 +1,40 @@
 <section id="yachts" class="our-yachts">
-  <div class="container">
+  <div class="our-yachts-container">
     <h2 class="our-yachts-title">
       Choose your dream yacht and sail away into the sunset
     </h2>
 
     <ul class="our-yachts-list">
       <li class="our-yachts-item">
-        <picture>
-          <source
-            srcset="
-              ./img/our-yachts/yacht-arrow-desct.jpg    1x,
-              ./img/our-yachts/yacht-arrow-desct@2x.jpg 2x
-            "
-            media="(min-width:1280px)"
-          />
-          <source
-            srcset="
-              ./img/our-yachts/yacht-arrow-tab.jpg    1x,
-              ./img/our-yachts/yacht-arrow-tab@2x.jpg 2x
-            "
-            media="(min-width:768px)"
-          />
-          <source
-            srcset="
-              ./img/our-yachts/yacht-arrow-mob.jpg    1x,
-              ./img/our-yachts/yacht-arrow-mob@2x.jpg 2x
-            "
-            media="(max-width:767px)"
-          />
-          <img
-            src="./img/our-yachts/yacht-arrow-desct.jpg"
-            alt="photo-yacht-1"
-          />
-        </picture>
+        <div class="our-yachts-img">
+          <picture>
+            <source
+              srcset="
+                ./img/our-yachts/yacht-arrow-desct.jpg    1x,
+                ./img/our-yachts/yacht-arrow-desct@2x.jpg 2x
+              "
+              media="(min-width:1280px)"
+            />
+            <source
+              srcset="
+                ./img/our-yachts/yacht-arrow-tab.jpg    1x,
+                ./img/our-yachts/yacht-arrow-tab@2x.jpg 2x
+              "
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="
+                ./img/our-yachts/yacht-arrow-mob.jpg    1x,
+                ./img/our-yachts/yacht-arrow-mob@2x.jpg 2x
+              "
+              media="(max-width:767px)"
+            />
+            <img
+              src="./img/our-yachts/yacht-arrow-desct.jpg"
+              alt="photo-yacht-1"
+            />
+          </picture>
+        </div>
         <div class="our-yachts-info yacht-info">
           <div class="yacht-info-desc">
             <h3 class="yacht-info-name">Arrow</h3>
@@ -117,7 +119,7 @@
         <picture>
           <source
             srcset="
-              ./img/our-yachts/yacht-belle-desct.jpg 1x,
+              ./img/our-yachts/yacht-belle-desct.jpg    1x,
               ./img/our-yachts/yacht-belle-desct@2x.jpg 2x
             "
             media="(min-width:1280px)"
@@ -160,6 +162,8 @@
       </li>
     </ul>
 
-    <a href="#rent">Yacht rental</a>
+    <div class="our-yachts-btn-wrapper">
+      <a href="#rent" class="our-yachts-btn">Yacht rental</a>
+    </div>
   </div>
 </section>
