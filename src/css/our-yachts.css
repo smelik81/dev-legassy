@@ -2,12 +2,19 @@
     padding: 80px 0;
 }
 
-.container {
+.our-yachts-container {
     width: 100%;
     max-width: 365px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
+/* .container {
+    width: 100%;
+    max-width: 365px;
+    padding: 0 15px;
+    margin: 0 auto;
+} */
 
 .our-yachts-title {
     margin: 0 auto 40px;
@@ -143,8 +150,7 @@
 }
 
 .our-yachts-btn:hover,
-.our-yachts-btn:active
-.our-yachts-btn:focus {
+.our-yachts-btn:active .our-yachts-btn:focus {
     color: #1b414b;
     background-color: #fdfdfd;
     border-color: #fdfdfd;
