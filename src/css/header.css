@@ -1,6 +1,10 @@
 /*.header {
     position: relative;
 }*/
+html {
+  scroll-behavior: smooth;
+}
+
 .header-container {
     position: absolute;
     top: 20px;
