@@ -1,7 +1,11 @@
 /*.header {
     position: relative;
 }*/
-.container.header-container {
+html {
+  scroll-behavior: smooth;
+}
+
+.header-container {
     position: absolute;
     top: 20px;
     left: 50%;
@@ -160,12 +164,14 @@
     }
 }
 @media only screen and (min-width:768px) {
-    .container {
+    /*.container {
         max-width: 768px;
         padding: 0 32px;
-    }
-    .container.header-container {
+    }*/
+    .header-container {
         top: 32px;
+        max-width: 768px;
+        padding: 0 32px;
     }
     .mobile-nav {
         justify-content: space-between;
@@ -231,7 +237,10 @@
    }
 }
 @media only screen and (min-width:1280px) {
-    .container {
+    /*.container {
+        max-width: 1280px;
+    }*/
+    .header-container {
         max-width: 1280px;
         padding: 0 100px;
     }
