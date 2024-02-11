@@ -1,47 +1,40 @@
 .about-us {
-  border-radius: 24px;
-  background: rgb(251, 251, 251);
-  width: 335px;
-  height: 675px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 40px;
-  padding-bottom: 317px;
 }
 .container-about {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }
-.container {
+.about-wrapper {
+  border-radius: 24px;
+  background: rgb(251, 251, 251);
 }
-.about {
-  padding-bottom: 40px;
+.about-text-wrapper {
+  padding: 40px 20px;
 }
 .about-title {
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 295px;
   color: #1b414b;
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: left;
+  margin-bottom: 40px;
 }
 .about-descr {
 }
 .description {
-  padding-left: 20px;
-  padding-right: 20px;
   color: #1b414b;
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: left;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .about-text {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 22px;
   color: #040306;
   font-size: 12px;
   font-weight: 400;
@@ -51,93 +44,13 @@
   opacity: 0.4;
 }
 .about-img {
-  position: relative;
   border-radius: 24px;
 }
 .about-font {
 }
 /* Tab devices */
 @media screen and (min-width: 768px) {
-  .about-us {
-    border-radius: 24px;
-    background: rgb(251, 251, 251);
-    width: 704px;
-    height: 675px;
-    margin-left: 32px;
-    margin-right: 32px;
-    padding-top: 50px;
-    padding-bottom: 244px;
-  }
   .container-about {
-  }
-  .about-title {
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #1b414b;
-    text-align: left;
-    padding-left: 32px;
-    padding-right: 136px;
-  }
-  .about-descr {
-    width: 410px;
-  }
-  .description {
-    padding-left: 32px;
-    font-size: 23px;
-  }
-  .about-text {
-    padding-left: 32px;
-    font-size: 13px;
-    line-height: 1.15;
-  }
-  .about-img {
-    width: 704px;
-    height: 470px;
-    position: relative;
-    border-radius: 24px;
-  }
-}
-/* desktop devices */
-@media screen and (min-width: 1280px) {
-  .about-us {
-    border-radius: 24px;
-    background: rgb(251, 251, 251);
-    width: 1180px;
-    height: 675px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 415px;
-  }
-  .container-about {
-    width: 1080px;
-    display: flex;
-    padding-right: 0;
-  }
-  .about-title {
-    width: 537px;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .about-descr {
-    margin-left: 189px;
-  }
-  .description {
-    padding: 0;
-    padding-bottom: 20px;
-  }
-  .about-text {
-    padding: 0;
-  }
-  .about-img {
-    width: 1180px;
-    height: 470px;
-    position: absolute;
-    top: 560px;
-    left: 50px;
+    max-width: 744px;
   }
 }
