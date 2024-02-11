@@ -102,7 +102,7 @@ ol {
     }
 
     .advantages-foto {
-        margin-top: 32px;
+        margin-top: unset;
     }
 }
 
