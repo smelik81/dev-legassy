@@ -38,7 +38,6 @@ html {
     justify-content: center;
     padding: 7px 0;
     width: 28px;
-    height: 28px;
     background-color: transparent;
     border: none;
     margin-left: auto;
@@ -92,7 +91,7 @@ html {
 .modale-block {
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    gap: 260px;
 }
 .modale-list {
     display: flex;
