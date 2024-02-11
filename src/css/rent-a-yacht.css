@@ -15,7 +15,6 @@
 }
 @media only screen and (min-width: 1280px) {
   .rent-container {
-    width: 100%;
     max-width: 1280px;
     padding: 0 50px;
     margin: 0 auto;
@@ -43,23 +42,18 @@
 
 .rent-form {
 }
-@media only screen and (min-width: 768px) {
-  .rent-form {
-    /* margin: 0 148px; */
-  }
-}
 
 .inputs-container {
   display: flex;
   flex-direction: column;
   gap: 18px;
 
-  width: 335px;
+  width: 100%;
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) {
   .inputs-container {
-    width: 473px;
+    width: 472px;
     margin-bottom: 50px;
   }
 }
