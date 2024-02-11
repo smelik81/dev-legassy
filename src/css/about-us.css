@@ -1,0 +1,56 @@
+.about-us {
+}
+.container-about {
+  max-width: 375px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.about-wrapper {
+  border-radius: 24px;
+  background: rgb(251, 251, 251);
+}
+.about-text-wrapper {
+  padding: 40px 20px;
+}
+.about-title {
+  max-width: 295px;
+  color: #1b414b;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.about-descr {
+}
+.description {
+  color: #1b414b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.about-text {
+  color: #040306;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  text-align: left;
+  opacity: 0.4;
+}
+.about-img {
+  border-radius: 24px;
+}
+.about-font {
+}
+/* Tab devices */
+@media screen and (min-width: 768px) {
+  .container-about {
+    max-width: 744px;
+  }
+}
