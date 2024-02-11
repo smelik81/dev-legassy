@@ -49,9 +49,8 @@
 }
 .about-img {
   border-radius: 24px;
-  position: absolute;
-  top: 320px;
-  width: 335px;
+  position: relative;
+  bottom: -1px;
 }
 .about-font {
 }
