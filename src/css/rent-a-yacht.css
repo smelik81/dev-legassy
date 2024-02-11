@@ -1,5 +1,10 @@
 .rent-a-yacht {
 }
+@media only screen and (min-width: 768px) {
+    .rent-a-yacht {
+    padding-bottom: 150px;
+  }
+}
 .rent-container {
 }
 @media screen and (min-width: 768px) {
