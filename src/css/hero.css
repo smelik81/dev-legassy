@@ -49,7 +49,7 @@
 .hero-btn {
   border-radius: 15px;
   padding: 14px 32px;
-  min-width: 141px;
+  max-width: 141px;
   height: 46px;
   background-color: #1b414b;
   font-weight: 500;
