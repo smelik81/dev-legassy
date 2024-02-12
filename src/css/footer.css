@@ -275,3 +275,9 @@ span {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 334px) {
+  .footer-menu-item {
+    width: 60px; /* или другое подходящее значение */
+  }
+}
