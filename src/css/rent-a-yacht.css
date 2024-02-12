@@ -1,7 +1,7 @@
 .rent-a-yacht {
 }
 @media only screen and (min-width: 768px) {
-    .rent-a-yacht {
+  .rent-a-yacht {
     padding-bottom: 150px;
   }
 }
@@ -91,6 +91,9 @@
     line-height: 1.28;
   }
 }
+.rent-form-input:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+}
 .rent-form-input:focus {
   border: 1px solid rgba(251, 251, 251, 0.5);
 }
@@ -121,6 +124,9 @@
     font-size: 14px;
     line-height: 1.28;
   }
+}
+.comment-field:hover {
+  border: 1px solid rgba(251, 251, 251, 0.5);
 }
 .comment-field:focus {
   border: 1px solid rgba(251, 251, 251, 0.5);
@@ -157,11 +163,12 @@
     background: #fbfbfb;
     color: #1b414b;
   }
+  .form-btn:focus {
+    background: #fbfbfb;
+    color: #1b414b;
+  }
 }
-.form-btn:focus {
-  background: #fbfbfb;
-  color: #1b414b;
-}
+
 @media only screen and (min-width: 1280px) {
   .form-btn {
     margin-bottom: 0;

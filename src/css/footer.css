@@ -59,6 +59,10 @@
   color: #1b414b;
   background-color: #fbfbfb;
 }
+.btn-footer:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+}
 .social-list-footer {
   display: flex;
   gap: 8px;
@@ -84,22 +88,19 @@
   fill: #fbfbfb;
   transition: fill 1s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
+.footer-svg:hover {
+  fill-opacity: 0.8;
+}
+.footer-svg:focus {
+  fill-opacity: 0.8;
+}
 .footer-social-link:hover .footer-svg {
   fill: #1b414b;
 }
-/*.slogan p {
-    font-family: inherit;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    text-align: center;
-    color: #fbfbfb;
-    width: 280px;
-    display: block;
-    margin: 0 auto 80px;
-    width: 280px;
-}*/
+.footer-social-link:focus .footer-svg {
+  fill: #1b414b;
+}
+
 .slogan {
   display: flex;
   margin: 0 auto 82px;
@@ -126,10 +127,8 @@ span {
   word-spacing: 3px;
 }
 .info {
-  /* margin: 0 auto; */
   display: flex;
   gap: 20px;
-  /* width: 248px; */
   justify-content: center;
 }
 .info p,
