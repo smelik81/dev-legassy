@@ -52,7 +52,7 @@
     max-width: 744px;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 150px;
+    padding-bottom: 90px;
   }
   .about-title {
     max-width: 536px;
@@ -81,6 +81,8 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   .about-title {
     max-width: 536px;
