@@ -88,17 +88,12 @@
   fill: #fbfbfb;
   transition: fill 1s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
-.footer-svg:hover {
+
+.footer-menu-social-link:hover .footer-svg {
   fill-opacity: 0.8;
 }
-.footer-svg:focus {
+.footer-menu-social-link:hover .footer-svg {
   fill-opacity: 0.8;
-}
-.footer-social-link:hover .footer-svg {
-  fill: #1b414b;
-}
-.footer-social-link:focus .footer-svg {
-  fill: #1b414b;
 }
 
 .slogan {
