@@ -247,14 +247,14 @@ html {
     height: 100%;
     border-radius: 50%;
   }
-  .header-svg {
+  .header-social-link {
     fill: #1b414b;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   }
-  .header-svg:hover {
+  .header-social-link:hover {
     fill: #062730;
   }
-  .header-svg:focus {
+  .header-social-link:focus {
     fill: #062730;
   }
 }
