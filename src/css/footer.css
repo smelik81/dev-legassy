@@ -89,10 +89,10 @@
   transition: fill 1s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
-.footer-menu-social-link:hover .footer-svg {
+.footer-menu-social-link:hover {
   fill-opacity: 0.8;
 }
-.footer-menu-social-link:hover .footer-svg {
+.footer-menu-social-link:hover {
   fill-opacity: 0.8;
 }
 
