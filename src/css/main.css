@@ -11,8 +11,9 @@ body {
 }
 
 section {
-  padding: 80px 0;
+  padding-bottom: 80px;
 }
+
 h1 {
   font-weight: 500;
   font-size: 32px;
@@ -43,6 +44,8 @@ p {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transform: translateX(0%);
+  z-index: 1;
 }
 .visually-hidden {
   position: absolute;
